@@ -1,5 +1,5 @@
 # Generar melodías con LSTM a partir de archivos MIDI
-
+Articulo IEEE: https://github.com/ryu-ed/Music-and-Genetic-Algorithm/blob/main/Melodias%20MIDI%20IA.pdf
 ## Redes LSTM
 Las redes LSTM o por sus siglas en inglés, Long short term memory; son un tipo de redes neuronales recurrentes que consiste en múltiples puertas y son capaces de aprender a largo plazo debido a su estructura tienen la capacidad de recordar información por periodos largos de tiempo, olvidad información innecesaria y exponer la información dada. 
 
@@ -19,15 +19,24 @@ El repositorio en classroom donde nos proporcionaban los recursos del proyecto, 
 Nuestro grupo opto por utilizar archivos con extensión MIDI, ya que estos archivos pueden medir fácilmente los tiempos, las notas, vibratos, etc. Mientras que los demás son solo audios.  
 Para el entrenamiento de la data utilizamos canciones de chopin en formato MIDI. Se pueden utilizar cualquier tipo de música siempre y cuando este en formato MIDI. 
 
+**Colab del proyecto: https://github.com/ryu-ed/Music-and-Genetic-Algorithm/blob/main/IA_Music.ipynb** 
+
+**Archivo MIDI para el proyecto: https://github.com/ryu-ed/Music-and-Genetic-Algorithm/blob/main/midi_files.zip**
 ### Primer Entrenamiento
 
 Dentro de lo explicado en el video del laboratorio 1, el primer entrenamiento fue de 75 clases y cada una de ella tenían una duración de 1h 30 min cada una aproximadamente (a veces menos, a veces más). Al parecer el Colab no puede estar mas de 12h seguidas ejecutándose sin ningún movimiento en el documento. Por consiguiente, el primer entrenamiento fue bajado a 20 clases, las cuales solo 16 lograron salvarse. Por lo que este entrenamiento fue descartado. Ya que no cumplió con las 20 clases. 
+
+Data del Primer Entrenamiento: https://drive.google.com/drive/folders/1ikbxhYkAeLfoIW6OzJWRHzDMwF3f6QB9?usp=sharing
 
 ### Segundo Entrenamiento
 Durante este entrenamiento se tomó la decisión de pagar por el Google Colab, ya que nos garantiza una mejor GPU, RAM, y espacio en disco. Los resultados fueron notables, cada clase terminaba en 71 segundos. Por consiguiente, se realizó un entrenamiento de 200 para que la data fuera entrenada correctamente. 
 Al llegar a la clase 94, notamos que no siguió guardando data. Ya que llego a un estado optimo y todas las clases siguientes eran mayores que la clase 94 y no las tomaba en cuenta. 
 
+Data del Segundo Entrenamiento: https://drive.google.com/drive/folders/1R6_qznNWb18qLg--gA8jYV8U890GeKdq?usp=sharing
+PDF con el entrenamiento: https://github.com/ryu-ed/Music-and-Genetic-Algorithm/blob/main/Entrenamiento.pdf
 ## Conclusión
 El segundo entrenamiento funciono, inclusive podemos notar una amplia diferencia en la variedad de notas que se encuentran en las partituras. Este método es lento, pero sin lugar a duda es el más optimo siempre y cuando se tenga con los recursos para realizarlo. 
 Esta implementación del LSTM puede entrenar cualquier tipo de melodía. Por ejemplo: las melodías propuestas en el planteamiento del problema pueden pasar a archivos MIDI con algún software de sonido e importar la data para su posterior entrenamiento. 
 
+Audio MIDI de los entrenamientos: https://drive.google.com/drive/folders/1sLaXcKe6wFTqEBck4YKPcRPLuZs0EmoA?usp=sharing
+Video de explicación: https://www.youtube.com/watch?v=JrvRdA4jwyM
