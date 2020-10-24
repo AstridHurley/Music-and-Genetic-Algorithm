@@ -33,10 +33,13 @@ Durante este entrenamiento se tomó la decisión de pagar por el Google Colab, y
 Al llegar a la clase 94, notamos que no siguió guardando data. Ya que llego a un estado optimo y todas las clases siguientes eran mayores que la clase 94 y no las tomaba en cuenta. 
 
 **Data del Segundo Entrenamiento:** https://drive.google.com/drive/folders/1R6_qznNWb18qLg--gA8jYV8U890GeKdq?usp=sharing
+
 **PDF con el entrenamiento:** https://github.com/ryu-ed/Music-and-Genetic-Algorithm/blob/main/Entrenamiento.pdf
+
 ## Conclusión
 El segundo entrenamiento funciono, inclusive podemos notar una amplia diferencia en la variedad de notas que se encuentran en las partituras. Este método es lento, pero sin lugar a duda es el más optimo siempre y cuando se tenga con los recursos para realizarlo. 
 Esta implementación del LSTM puede entrenar cualquier tipo de melodía. Por ejemplo: las melodías propuestas en el planteamiento del problema pueden pasar a archivos MIDI con algún software de sonido e importar la data para su posterior entrenamiento. 
 
 **Audio final en MIDI de los entrenamientos:** https://drive.google.com/drive/folders/1sLaXcKe6wFTqEBck4YKPcRPLuZs0EmoA?usp=sharing
+
 **Video de explicación:** https://www.youtube.com/watch?v=JrvRdA4jwyM
